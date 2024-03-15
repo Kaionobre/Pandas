@@ -12,4 +12,7 @@ base_dados = pd.read_csv(url, sep=';')
 
 #print(base_dados.info()) mostra as colunas, os dados não nulos e o tipo de dado de cada coluna
 
+#print(base_dados['Tipo']) mostra a coluna especificada
+
+# print(base_dados[['Quartos', 'Valor']]) mostra as colunas especificadas
 
